@@ -22,7 +22,7 @@ def merge_html(path):
                 html = f.read()
                 empty_html = empty_html.replace('</body></html>', html + '</body></html>')
     
-    with open("/usr/local/spark/resources/data/buisness_report.html",'w') as f_1:
+    with open("/usr/local/spark/resources/data/business_report.html",'w') as f_1:
         f_1.write(empty_html)
 
 
